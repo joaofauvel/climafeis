@@ -12,7 +12,7 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
 
 ### Instalação em uma distribuição GNU/Linux
 1. Confira sua versão do Python com `python -V`
-1. Instale o Python 3.6 ou superior com o gerenciador de pacotes da sua distribuição, caso não esteja instalado  
+1. Instale o Python 3.4 ou superior com o gerenciador de pacotes da sua distribuição, caso não esteja instalado  
     - Ubuntu e derivados `apt install python3.6`
     - Arch e derivados: `pacman -S python`
 1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
