@@ -1,5 +1,5 @@
 # Climafeis
-Interface em Python para a consulta de dados climatológicos do banco de dados do [Canal CLIMA](http://clima.feis.unesp.br) com a biblioteca [Selenium](https://selenium-python.readthedocs.io/).  
+Demo de uma interface em Python para a consulta de dados climatológicos do banco de dados do [Canal CLIMA](http://clima.feis.unesp.br) com a biblioteca [Selenium](https://selenium-python.readthedocs.io/).  
 
 ### Instalação no Windows
 1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
