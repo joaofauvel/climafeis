@@ -32,4 +32,4 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
 1. Execute o script `python ./demo.py`  
 
 ---------
-Alternativamente, é recomendado a execução dos passos acima em um ambiente virtual, como [venv](https://docs.python.org/3/library/venv.html) ou [virtualenv](https://virtualenv.pypa.io/en/stable/).
+Alternativamente, é recomendado a instalação dos requisitos em um ambiente virtual do Python, como [venv](https://docs.python.org/3/library/venv.html) ou [virtualenv](https://virtualenv.pypa.io/en/stable/).
