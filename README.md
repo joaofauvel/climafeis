@@ -13,7 +13,7 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
 
 ### Configuração em uma distribuição GNU/Linux
 1. Confira sua versão do Python com `python -V`
-1. Instale o Python 3.4 ou superior e pip com o gerenciador de pacotes da sua distribuição, caso já não estejam instalados  
+1. Instale o Python 3.4 ou superior e pip com o gerenciador de pacotes da sua distribuição, caso já não estejam instalados:  
 
     - Ubuntu e derivados `apt install python3 python3-pip`
     - Arch e derivados `pacman -S python python-pip`
