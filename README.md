@@ -8,7 +8,7 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
 1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git` ou baixe o [repositório](https://github.com/joaofauvel/climafeis/archive/master.zip) e extraia o conteúdo do arquivo master.zip 
 1. Abra o diretório `climafeis`, recem extraído, que contém os arquivos `demo.py` e `requirements.txt`
 1. Instale os requisitos `pip install -r requirements.txt`
-1. Baixe a versão mais nova do [geckodriver](https://github.com/mozilla/geckodriver/releases) e coloque o executável extraído na raiz do repositório
+1. Baixe a versão mais nova do [geckodriver](https://github.com/mozilla/geckodriver/releases) e coloque o executável extraído na raiz do diretório
 1. Execute o script `python .\demo.py`
 
 ### Configuração em uma distribuição GNU/Linux
