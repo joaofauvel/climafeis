@@ -3,7 +3,7 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
 
 ### Instalação no Windows
 1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
-1. Instale o [Python 3.6](https://www.python.org/downloads/windows/) ou superior, caso não esteja instalado
+1. Instale o [Python 3.4](https://www.python.org/downloads/windows/) ou superior, caso não esteja instalado
 1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git` ou baixe o [repositório](https://github.com/joaofauvel/climafeis/archive/master.zip) e extraia o arquivo master.zip 
 1. Navegue até a raiz do repositório, que contém o script e `requirements.txt`
 1. Instale os requisitos digitando `pip install -r requirements.txt`
