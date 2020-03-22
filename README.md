@@ -1,6 +1,7 @@
 # Climafeis
 Demo de uma interface em Python para a consulta de dados climatológicos do banco de dados do [Canal CLIMA](http://clima.feis.unesp.br) com a biblioteca [Selenium](https://selenium-python.readthedocs.io/).  
 
+------------------
 ### Instalação no Windows
 1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
 1. Instale o [Python 3.4](https://www.python.org/downloads/windows/) ou superior, caso não esteja instalado
@@ -26,3 +27,5 @@ Demo de uma interface em Python para a consulta de dados climatológicos do banc
     
     - Arch e derivados `pacman -S geckodriver`
 1. Execute o script `python ./demo.py`
+
+Alternativamente, recomenda-se a execução dos passos acima em um ambiente virtual, como [venv](https://docs.python.org/3/library/venv.html) ou [virtualenv](https://virtualenv.pypa.io/en/stable/).
