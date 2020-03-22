@@ -1,11 +1,6 @@
 from selenium import webdriver
 import datetime
 import os
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.firefox.options import Options
 
 
 def clima_login(clima_driver, user, passwd):
