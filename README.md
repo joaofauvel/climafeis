@@ -1,5 +1,5 @@
 # climafeis
-Demo de uma interface em Python para a consulta de dados climatológicos do banco de dados do [Canal CLIMA](http://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Selenium](https://selenium-python.readthedocs.io/).  
+Biblioteca em Python para a interface com o banco de dados climatológicos do [Canal CLIMA](http://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Selenium](https://selenium-python.readthedocs.io/).  
 
 ### Configuração no Windows
 1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
