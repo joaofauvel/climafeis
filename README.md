@@ -12,14 +12,14 @@ Biblioteca em Python para a interface com o banco de dados climatológicos do [C
 
 ### Configuração em uma distribuição GNU/Linux
 1. Confira sua versão do Python com `python -V`
-1. Instale o Python 3.4 ou superior e pip com o gerenciador de pacotes da sua distribuição, caso já não estejam instalados:  
+1. Instale o Python 3.4 ou superior, pip e o Firefox com o gerenciador de pacotes da sua distribuição, caso já não estejam instalados:  
 
-    - Ubuntu e derivados `apt install python3 python3-pip`
-    - Arch e derivados `pacman -S python python-pip`
-    - Fedora `dnf install python3 python3-pip`  
+    - Ubuntu e derivados `apt install python3 python3-pip firefox`
+    - Arch e derivados `pacman -S python python-pip firefox`
+    - Fedora `dnf install python3 python3-pip firefox`  
     
-1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
-1. Instale os requisitos `pip install -r requirements.txt`
+1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis-demo.git && cd climafeis-demo`
+1. Instale os requisitos `pip install --user -r requirements.txt`
 1. Instale o geckodriver:
     - Para Ubuntu e derivados e Fedora  
     `wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz`  
