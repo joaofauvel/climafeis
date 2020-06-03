@@ -16,7 +16,7 @@ Programa CLI em Python para scrape do banco de dados climatológicos do [Canal C
     - Arch e derivados `pacman -S python python-pip`
     - Fedora `dnf install python3 python3-pip`  
     
-1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis-demo.git && cd climafeis-demo`
+1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
 1. Instale os requisitos `pip install --user -r requirements.txt`
 
 ### Utilização
