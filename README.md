@@ -1,5 +1,5 @@
 # climafeis
-Programa CLI em Python para scrape do banco de dados climatológicos do [Canal CLIMA](http://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Requests](https://2.python-requests.org/en/master/).  
+Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLIMA](http://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Requests](https://2.python-requests.org/en/master/).  
 
 ### Configuração no Windows
 1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
