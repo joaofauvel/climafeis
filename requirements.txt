@@ -1,7 +1,7 @@
 
-requests~=2.23.0
-bs4~=0.0.1
-beautifulsoup4~=4.9.1
-pandas~=1.0.4
-numpy~=1.18.4
-lxml~=4.5.1
+requests>=2.23.0
+bs4>=0.0.1
+beautifulsoup4>=4.9.1
+pandas>=1.0.5
+numpy>=1.18.5
+lxml>=4.5.2
