@@ -3,8 +3,11 @@ name = "climafeis"
 version = "1.0.3"
 description = "Scrape dados climáticos de clima.feis.unesp.br"
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
-license = "GPLv3"
+license = "GPL-3.0-or-later"
 readme = "README.md"
+homepage = "https://github.com/joaofauvel/climafeis"
+repository = "https://github.com/joaofauvel/climafeis"
+keywords = ["scraping", "climate", "eto", "evapotranspiration", "dataset"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
