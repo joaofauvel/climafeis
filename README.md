@@ -1,14 +1,11 @@
 # climafeis
 Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLIMA](http://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Requests](https://2.python-requests.org/en/master/).  
 
-### Configuração no Windows
-1. Confira sua versão do Python em uma shell (Powershell ou CMD) com `python -V`
-1. Instale o [Python 3.4](https://www.python.org/downloads/windows/) ou superior, caso já não esteja instalado
-1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git` ou [baixe o repositório](https://github.com/joaofauvel/climafeis/archive/master.zip) e extraia o conteúdo do arquivo master.zip 
-1. Abra o diretório `climafeis`, recem extraído, que contém os arquivos `climascraper.py` e `requirements.txt`
-1. Instale os requisitos `pip install -r --user requirements.txt`
+### Instalação
+1. Certifique-se que o Python 3.8 ou superior e o pip estejam instalados
+1. Rode `pip install climafeis`
 
-### Configuração em uma distribuição GNU/Linux
+### Desenvolvimento
 1. Confira sua versão do Python com `python -V`
 1. Instale o Python 3.4 ou superior e pip, caso já não estejam instalados:  
 
@@ -17,10 +14,10 @@ Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLI
     - Fedora `dnf install python3 python3-pip`  
     
 1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
-1. Instale os requisitos `pip install --user -r requirements.txt`
+1. Instale os requisitos `poetry install`
 
 ### Utilização
-    usage: climascraper.py [-h] [-U USER] [-P PW] estacao dataInicial [dataFinal]
+    usage: climafeis [-h] [-U USER] [-P PW] estacao dataInicial [dataFinal]
 
     Scrape dados diários do Canal CLIMA (http://clima.feis.unesp.br).
 

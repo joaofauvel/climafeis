@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "climafeis"
 version = "1.0.1"
-description = "Scrape climate date from clima.feis.unesp.br"
-authors = ["João Fauvel"]
+description = "Scrape dados climáticos de clima.feis.unesp.br"
+authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 license = "GPLv3"
 readme = "README.md"
 
