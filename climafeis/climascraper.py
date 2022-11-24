@@ -75,7 +75,7 @@ def parse_daily(daily_data):
     return df
 
 
-def argv():
+def main():
     parser = argparse.ArgumentParser(description='Scrape dados diários do Canal CLIMA (http://clima.feis.unesp.br).')
     parser.add_argument('estacao', type=str,
                         help="""Nome da estação: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, 
@@ -87,10 +87,7 @@ def argv():
                         help='Usuário do Canal CLIMA. Caso seu usuário não esteja em $USER_CLIMAFEIS.')
     parser.add_argument('-P', '--pw', type=str,
                         help='Senha do Canal CLIMA. Caso sua senha não esteja em $PASSWD_CLIMAFEIS.')
-    return parser.parse_args()
-
-
-def main(args):
+    args = parser.parse_args()
     if args.user or args.pw:
         s = login(args.user, args.pw)
     else:
@@ -100,4 +97,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    main(argv())
+    main()
