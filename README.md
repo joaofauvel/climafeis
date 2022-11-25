@@ -2,21 +2,21 @@
 Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLIMA](https://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Requests](https://requests.readthedocs.io/en/latest/).  
 
 ### Installation
-1. Certifique-se que o Python 3.8 ou superior e o pip estejam instalados
-1. Rode `pip install climafeis`
+1. Make sure Python 3.8 or higher and pip are installed
+1. Run `pip install climafeis`
 
 ### Development
-1. Confira sua versão do Python com `python -V`
-1. Instale o Python 3.8 ou superior e pip, caso já não estejam instalados:
+1. Check Python's version `python -V`
+1. Install Python 3.8 or higher and pip, if they aren't already installed:
 
-    - Windows `winget install Python.Python.3.X` (substitua X com a minor version desejada)
-    - Ubuntu e derivados `apt install python3 python3-pip`
-    - Arch e derivados `pacman -S python python-pip`
+    - Windows `winget install Python.Python.3.X` (replace X with the desired minor version)
+    - Ubuntu based distros `apt install python3 python3-pip`
+    - Arch based distros `pacman -S python python-pip`
     - Fedora `dnf install python3 python3-pip`
 
-1. [Instale o poetry](https://python-poetry.org/docs/#installation) 
-1. Clone esse repositório com `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
-1. Instale os requisitos `poetry install`
+1. [Install poetry](https://python-poetry.org/docs/#installation) 
+1. Clone this repo `git clone https://github.com/joaofauvel/climafeis.git && cd climafeis`
+1. Install requirements `poetry install`
 
 ### Output headers
 | Header     | Description                                           |
@@ -71,5 +71,3 @@ Daily data from ILHA_SOLTEIRA station from 30/05/2020 to today, supplying userna
     -o OUT, --output OUT  output file. Default: <station>.csv
     -l LOG, --log LOG     output log file. Default: stdout
     -v, --verbose
-
-
