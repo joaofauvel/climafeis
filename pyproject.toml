@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "climafeis"
-version = "1.0.7"
+version = "1.0.8"
 description = "CLI Python application for scraping daily climate data from Canal CLIMA using requests and BeautifulSoup 4."
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 license = "GPL-3.0-or-later"
