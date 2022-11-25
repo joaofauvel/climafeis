@@ -81,20 +81,20 @@ def parse_daily(daily_data: str) -> pd.DataFrame:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='Scrape daily climate date from Canal CLIMA (https://clima.feis.unesp.br).')
+    parser = argparse.ArgumentParser(description='Scrape daily climate date from Canal CLIMA (https://clima.feis.unesp.br)')
     parser.add_argument('station', type=str,
-                        help="""Station name: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, 
-                        POPULINA, SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA.""")
-    parser.add_argument('start', type=str, help='Start date dd/MM/YYYY (30/05/2020).')
+                        help="""station name: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, 
+                        POPULINA, SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA""")
+    parser.add_argument('start', type=str, help='Start date dd/MM/YYYY (30/05/2020)')
     parser.add_argument('end', nargs='?', default=date.today().strftime('%d/%m/%Y'), type=str,
-                        help='End date dd/MM/YYYY (03/05/2020). Default: today.')
+                        help='end date dd/MM/YYYY (03/05/2020). Default: today')
     parser.add_argument('-U', '--user', type=str,
-                        help='Override Canal CLIMA user set in the environment variable $USER_CLIMAFEIS.')
+                        help='override Canal CLIMA user set in the environment variable $USER_CLIMAFEIS')
     parser.add_argument('-P', '--pw', type=str,
-                        help='Override Canal CLIMA password set in the environment variable $PASSWD_CLIMAFEIS.')
+                        help='override Canal CLIMA password set in the environment variable $PASSWD_CLIMAFEIS')
     parser.add_argument('-o', '--output', metavar='OUT', type=str,
-                        help='Output file. Default: <station>.csv')
-    parser.add_argument('-l', '--log', type=str, help='Output log file. Default: stdout')
+                        help='output file. Default: <station>.csv')
+    parser.add_argument('-l', '--log', type=str, help='output log file. Default: stdout')
     parser.add_argument('-v', '--verbose', action='count', default=1)
     args = parser.parse_args()
     args.verbose = 40 - (10*args.verbose) if args.verbose > 0 else 0

@@ -43,27 +43,22 @@ Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLI
 | Insolation | Solar insolation (h/day)                              |
 
 ### Usage
-    usage: climafeis [-h] [-U USER] [-P PW] estacao dataInicial [dataFinal]
+    usage: climafeis [-h] [-U USER] [-P PW] [-o OUT] [-l LOG] [-v] station start [end]
 
-    Scrape dados diários do Canal CLIMA (http://clima.feis.unesp.br).
+    Scrape daily climate date from Canal CLIMA (https://clima.feis.unesp.br)
 
     positional arguments:
-        estacao               Nome da estação: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA,
-        IRAPURU, POPULINA, SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA.
-        
-        dataInicial           Data inicial no formato dd/MM/YYYY (30/05/2020).
-        dataFinal             Data final no formato dd/MM/YYYY (03/05/2020). Padrão: presente dia.
+    station               station name: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, POPULINA,
+                            SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA
+    start                 start date dd/MM/YYYY (30/05/2020)
+    end                   end date dd/MM/YYYY (03/05/2020). Default: today
 
-    optional arguments:
-        -h, --help            show this help message and exit
-        -U USER, --user USER  Usuário do Canal CLIMA. Caso seu usuário não esteja em $USER_CLIMAFEIS.
-        -P PW, --pw PW        Senha do Canal CLIMA. Caso sua senha não esteja em $PASSWD_CLIMAFEIS.
-        
-    Examples:
-        climafeis ILHA_SOLTEIRA 30/05/2020 03/06/2020             Daily data from ILHA_SOLTEIRA station from 30/05/2020 to 03/05/2020
-        
-        climafeis MARINOPOLIS 30/05/2020                          Daily data from MARINOPOLIS station from 30/05/2020 to today
-        
-        climafeis ILHA_SOLTEIRA 30/05/2020 -U user -P password    
+    options:
+    -h, --help            show this help message and exit
+    -U USER, --user USER  override Canal CLIMA user set in the environment variable $USER_CLIMAFEIS
+    -P PW, --pw PW        override Canal CLIMA password set in the environment variable $PASSWD_CLIMAFEIS
+    -o OUT, --output OUT  output file. Default: <station>.csv
+    -l LOG, --log LOG     output log file. Default: stdout
+    -v, --verbose
 
 
