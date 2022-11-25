@@ -43,13 +43,13 @@ Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLI
 | Insolation | Solar insolation (h/day)                              |
 
 ### Usage
-Daily data from ILHA_SOLTEIRA station from 30/05/2020 (dd/MM/YYYY) to 03/05/2020:
+Daily data from ILHA_SOLTEIRA station from 30/05/2020 (dd/MM/YYYY) to 03/05/2020  
 `climafeis ILHA_SOLTEIRA 30/05/2020 03/06/2020`
 
-Daily data from MARINOPOLIS station from 30/05/2020 to today
+Daily data from MARINOPOLIS station from 30/05/2020 to today  
 `climafeis MARINOPOLIS 30/05/2020`
 
-Daily data from ILHA_SOLTEIRA station from 30/05/2020, supplying username and password
+Daily data from ILHA_SOLTEIRA station from 30/05/2020, supplying username and password  
 `climafeis ILHA_SOLTEIRA 30/05/2020 -U user -P password`
 
 
