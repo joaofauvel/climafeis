@@ -50,7 +50,8 @@ Daily data from MARINOPOLIS station from 30/05/2020 to today
 `climafeis MARINOPOLIS 30/05/2020`
 
 Daily data from ILHA_SOLTEIRA station from 30/05/2020 to today, supplying username and password  
-`climafeis ILHA_SOLTEIRA 30/05/2020 -U user -P password`
+`climafeis ILHA_SOLTEIRA 30/05/2020 -U user -P password`  
+
 ---
 
     usage: climafeis [-h] [-U USER] [-P PW] [-o OUT] [-l LOG] [-v] station start [end]
