@@ -40,7 +40,7 @@ def fetch_daily(session, dataini, datafim, estacao):
                'RadioGroup1': 'dados_diario', 'enviar': 'Enviar'}
 
     r = session.post(url, payload)
-    soup = bs4.BeautifulSoup(r.content, 'html.parser')
+    soup = bs4.BeautifulSoup(r.content, 'html5lib')
     table_daily = soup.find_all('table')[1]
     try:
         df = parse_daily(table_daily.prettify())
@@ -62,7 +62,7 @@ def parse_daily(daily_data):
                15: 'Vvento_media', 16: 'Dir_vento', 17: 'Chuva', 18: 'Insolacao'}
     headers = pd.Series(headers)
 
-    dfs = pd.read_html(daily_data, index_col=0, parse_dates=True)
+    dfs = pd.read_html(daily_data, index_col=0, parse_dates=True, flavor='html5lib')
 
     df = pd.concat(dfs, axis=1, sort=False, ignore_index=True)
     df = df[2:-11]
