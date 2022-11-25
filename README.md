@@ -43,13 +43,23 @@ Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLI
 | Insolation | Solar insolation (h/day)                              |
 
 ### Usage
+Daily data from ILHA_SOLTEIRA station from 30/05/2020 (dd/MM/YYYY) to 03/05/2020:
+    climafeis ILHA_SOLTEIRA 30/05/2020 03/06/2020
+
+Daily data from MARINOPOLIS station from 30/05/2020 to today
+    climafeis MARINOPOLIS 30/05/2020
+
+Daily data from ILHA_SOLTEIRA station from 30/05/2020, supplying username and password
+    climafeis ILHA_SOLTEIRA 30/05/2020 -U user -P password    
+
+
     usage: climafeis [-h] [-U USER] [-P PW] [-o OUT] [-l LOG] [-v] station start [end]
 
     Scrape daily climate date from Canal CLIMA (https://clima.feis.unesp.br)
 
     positional arguments:
-    station               station name: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, POPULINA,
-                            SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA
+    station               station name: ILHA_SOLTEIRA, MARINOPOLIS, JUNQUEIROPOLIS, PARANAPUA, IRAPURU, 
+                            POPULINA, SANTA_ADELIA_PIONEIROS, SANTA_ADELIA, BONANCA, ITAPURA, DRACENA
     start                 start date dd/MM/YYYY (30/05/2020)
     end                   end date dd/MM/YYYY (03/05/2020). Default: today
 
