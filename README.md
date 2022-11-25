@@ -1,5 +1,5 @@
 # climafeis
-Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLIMA](https://clima.feis.unesp.br) da [UNESP Ilha Solteira](https://www.feis.unesp.br/) com a biblioteca [Requests](https://requests.readthedocs.io/en/latest/).  
+CLI Python application for scraping daily climate data from [Canal CLIMA](https://clima.feis.unesp.br) [UNESP Ilha Solteira](https://www.feis.unesp.br/) using [requests](https://requests.readthedocs.io/en/latest/) and [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/).  
 
 ### Installation
 1. Make sure Python 3.8 or higher and pip are installed
@@ -41,6 +41,7 @@ Script CLI em Python para scrape do banco de dados climatológicos do [Canal CLI
 | U2dir      | Wind direction at 2 meters (º)                        |
 | Rain       | Rainfall (mm)                                         |
 | Insolation | Solar insolation (h/day)                              |
+[Reference](https://www.fao.org/3/x0490e/x0490e06.htm)
 
 ### Usage
 Daily data from ILHA_SOLTEIRA station from 30/05/2020 (dd/MM/YYYY) to 03/05/2020  
