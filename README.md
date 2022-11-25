@@ -40,7 +40,7 @@ CLI Python application for scraping daily climate data from [Canal CLIMA](https:
 | U2mean     | Mean windspeed at 2 meters (m/s)                      |
 | U2dir      | Wind direction at 2 meters (º)                        |
 | Rain       | Rainfall (mm)                                         |
-| Insolation | Solar insolation (h/day)                              |
+| Insolation | Solar insolation (h/day)                              |  
 [Reference](https://www.fao.org/3/x0490e/x0490e06.htm)
 
 ### Usage
