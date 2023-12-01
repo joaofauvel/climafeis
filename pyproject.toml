@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "climafeis"
-version = "1.0.9"
+version = "1.0.10"
 description = "Scrape daily climate data from Canal CLIMA"
 authors = ["João Fauvel <jmmfauvel@gmail.com>"]
 license = "GPL-3.0-or-later"
